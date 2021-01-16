@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="../tictactoe/tictactoe.css">
+</head>
+
+<body>
+    <a id="mainMenu" href="jackbox.html">Back to main menu</a>
+    <div id="game">
+        <h1 id="title"> Tic Tac Toe</h1>
+        <div class="block">
+            <button id="1" class="box" type="button" onclick="clicked(this)"></button>
+            <button id="2" class="box" type="button" onclick="clicked(this)"></button>
+            <button id="3" class="box" type="button" onclick="clicked(this)"></button>
+        </div>
+        <div class="block">
+            <button id="4" class="box" type="button" onclick="clicked(this)"></button>
+            <button id="5" class="box" type="button" onclick="clicked(this)"></button>
+            <button id="6" class="box" type="button" onclick="clicked(this)"></button>
+        </div>
+        <div class="block">
+            <button id="7" class="box" type="button" onclick="clicked(this)"></button>
+            <button id="8" class="box" type="button" onclick="clicked(this)"></button>
+            <button id="9" class="box" type="button" onclick="clicked(this)"></button>
+        </div>
+    </div>
+
+    <script src="../tictactoe/tictactoe.js"></script>
+
+    <div id="hide" class="end">
+        <output id="result"></output>
+        <a id="restart" href="tictactoe.html">Restart</a>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+#title {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+
+
+#mainMenu {
+    font-size: 20px;
+    border-style: solid;
+    padding: 10px;
+    position: absolute;
+    text-decoration: solid;
+    color: black;
+
+}
+
+#instuctions {
+    font-size: 25px;
+    text-align: center;
+}
+
+
+body {
+    background-color: #eeead8;
+}
+
+
+.row {
+    width: fit-content;
+    display: block;
+    margin: auto;
+    margin-top: 3px;
+}
+
+#score {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    display: block;
+    width: auto;
+    margin-top: 10px;
+}
+
+
+#start {
+    border-style: solid;
+    color: black;
+    padding: 5px;
+    text-decoration: solid;
+    display: block;
+    width: 100px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#board {
+    display: block;
+}
+
+
+.box {
+    pointer-events: none;
+    width: 100px;
+    height: 100px;
+    color: lightgray;
+    font-size: 30px;
+    background-color: lightgray;
+}
+
+.box.show {
+    color: black;
+    text-align: center;
+}
+.box.checker {
+    color: black;
+}
+
+.box.is2 {
+    background-color: lightgoldenrodyellow;
+}
+.box.is4 {
+    background-color: beige;
+}
+.box.is8 {
+    background-color: blanchedalmond;
+}
+.box.is16 {
+    background-color: bisque;
+}
+.box.is32 {
+    background-color: darksalmon;
+}
+.box.is64 {
+    background-color: lightsalmon;
+}
+.box.is128 {
+    background-color: goldenrod;
+}
+.box.is256 {
+    background-color: chocolate;
+}
+.box.is512 {
+    background-color: #a85858;
+}
+
+.box.is1024 {
+    background-color: crimson;
+}
+
+.box.is2048 {
+    background-color: red;
+}
+

@@ -1,0 +1,24 @@
+body {
+    background-color: #eeead8;
+}
+
+#title {
+    font-size: 50px;
+    text-align: center;
+}
+
+#collection {
+    margin-top: 20px;
+    display: block;
+}
+
+
+.link {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    border-style: solid;
+    padding: 20px;
+    text-decoration: solid;
+}

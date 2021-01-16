@@ -1,0 +1,103 @@
+body {
+    background-color: #eeead8;
+}
+
+#mainMenu {
+    font-size: 20px;
+    border-style: solid;
+    padding: 10px;
+    position: absolute;
+    text-decoration: solid;
+    color: black;
+}
+
+
+#title {
+    font-size: 50px;
+    text-align: center;
+}
+
+.box {
+    background-color: rgb(103, 103, 224);
+    width: 100px;
+    height: 100px;
+    margin-top: 2px;
+}
+
+.row {
+    margin: auto;
+    width: fit-content;
+}
+
+.box:hover {
+    background-color: lightblue;
+}
+
+#restart {
+    position: absolute;
+    font-size: 40px;
+    border-style: solid;
+    padding: 20px;
+    text-decoration: solid;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 70px;
+    color: black;
+}
+
+#toPrint {
+    font-size: 40px;
+    text-align: center;
+}
+
+.box.cat {
+    background-color: none;
+    background:url('images/cat.jpg');
+    background-size: cover;   
+}
+
+.box.donkey {
+    background-color: none;
+    background:url('images/donkey.jpeg');
+    background-size: cover;
+}
+
+.box.monkey {
+    background-color: none;
+    background:url('images/monkey.webp');
+    background-size: cover;
+}
+
+.box.mosquito {
+    background-color: none;
+    background:url('images/mosquito.jpeg');
+    background-size: cover;
+}
+
+.box.penguin {
+    background-color: none;
+    background:url('images/penguin.jpeg');
+    background-size: cover;
+}
+
+.box.seagull {
+    background-color: none;
+    background:url('images/seagull.jpeg');
+    background-size: cover;
+}
+
+.box.squirrel {
+    background-color: none;
+    background:url('images/squirrel.jpeg');
+    background-size: cover;
+}
+
+.box.dog {
+    background-color: none;
+    background:url('images/dog.jpeg');
+    background-size: cover;
+}
+
+.complete {
+    background: none; 
+}
